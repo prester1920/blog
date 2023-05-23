@@ -50,7 +50,7 @@ Just one problem: the process of custom crafting images by hand is very tedious 
 This is one of several reasons why the Dockerfile was created. It is a way of automating the aforementioned process of constructing images manually layered with docker commit. Now you can zip through the process by defining a file such as this:
 
 <pre>
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 MAINTAINER Nathan LeClaire 
 
 RUN apt-get update && \
